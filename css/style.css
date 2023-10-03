@@ -34,16 +34,20 @@ body{
 .debug .link{
     max-width: 750px;
 }*/
+/*
 .debug .box{
     height: 415px;
-    /*background-color: #EE82EE;*/
-    /*border: dashed 2px black;*/
+    background-color: #EE82EE;
+    border: dashed 2px black;
 
 }
+*/
 /* - Main - */
+/*
 .debug section .container{
     height: 520px;
-}
+}*/
+/*
 .debug .primo{
     background-color: #1E90FF;
 }
@@ -53,9 +57,10 @@ body{
 .debug .primo, .debug .secondo{
     border: dashed 2px black;
 }
+*/
 .debug .container2{
-    background-color: #228B22;
-    border: dashed 2px black;
+    /*background-color: #228B22;
+    border: dashed 2px black;*/
     height: 935px;
 }
 /* - Footer - */
@@ -156,6 +161,7 @@ nav .container div{
 .box{
     max-width: 950px;
     margin: 50px auto;
+    height: 415px;
     text-align: center;
     font-size: 20px;
     display: flex;
@@ -176,15 +182,38 @@ nav .container div{
 }
 /* Main */
 section:nth-child(even){
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
 }
 section{
     padding: 52px 0;
 }
 .secondo{
+    padding-top: 35px;
+    padding-left: 50px;
     width: 500px;
 }
+.secondo h2, .container2 h2{
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+.secondo p, .container2 p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.container2{
+    text-align: center;
+}
+.container2 h3{
+    font-size: 25px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.container2 .button{
+    background-color: #7289DA;
+    color: white;
+}
 .primo{
+    text-align: right;
     flex-grow: 1;
 }
 /* Footer */
