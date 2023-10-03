@@ -58,15 +58,17 @@ body{
     border: dashed 2px black;
 }
 */
+/*
 .debug .container2{
-    /*background-color: #228B22;
-    border: dashed 2px black;*/
+    background-color: #228B22;
+    border: dashed 2px black;
     height: 935px;
-}
+}*/
 /* - Footer - */
+/*
 .debug footer{
     background-color: #23272A;
-}
+}*/
 .debug footer .container{
     height: 600px;
 }
@@ -202,6 +204,7 @@ section{
 }
 .container2{
     text-align: center;
+    margin-bottom: 85px;
 }
 .container2 h3{
     font-size: 25px;
@@ -218,6 +221,7 @@ section{
 }
 /* Footer */
 footer{
+    background-color: #23272A;
     padding-top: 10px;
 }
 footer .container{
