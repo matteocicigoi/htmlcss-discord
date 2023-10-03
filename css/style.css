@@ -1,0 +1,213 @@
+/* Reset */ 
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Font */
+body{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+/* Debug  */
+/* - Header - */
+/*
+.debug header{
+    background-color: #00008B;
+    border-bottom: solid 4px #ADD8E6;
+}
+*/
+/*
+.debug nav{
+    background-color: #ADD8E6;
+}*/
+/*
+.debug header .container{
+    height: 50px;
+    background-color: #DAA520;
+}
+*/
+/*
+.debug nav .container div{
+    border: dashed 2px black;
+}*/
+/*
+.debug .link{
+    max-width: 750px;
+}*/
+.debug .box{
+    height: 415px;
+    /*background-color: #EE82EE;*/
+    /*border: dashed 2px black;*/
+
+}
+/* - Main - */
+.debug section .container{
+    height: 520px;
+}
+.debug .primo{
+    background-color: #1E90FF;
+}
+.debug .secondo{
+    background-color: #FFC0CB;
+}
+.debug .primo, .debug .secondo{
+    border: dashed 2px black;
+}
+.debug .container2{
+    background-color: #228B22;
+    border: dashed 2px black;
+    height: 935px;
+}
+/* - Footer - */
+.debug footer{
+    background-color: #23272A;
+}
+.debug footer .container{
+    height: 600px;
+}
+.debug .footerBottom{
+    border-color: #D7D7D8;
+    height: 115px;
+}
+.debug .primaColonna{
+    background-color: #F08080;
+    border: dashed 2px black;
+}
+.debug .secondaColonna{
+    background-color: #20B2AA;
+    border: dashed 2px black;
+}
+.debug .secondaColonna div{
+    border: dashed 2px white;
+    flex-grow: 1;
+}
+.debug .footerBottom .container{
+    height: 85px;
+    background-color: #7FFFD4;
+}
+.debug .footerBottom .container div{
+    height: 40px;
+    background-color: #FFB6C1;
+    border: dashed 2px black;
+    text-align: center;
+}
+.debug .logoFooter{
+    max-width: 70px;
+}
+.debug .bottoneFooter{
+    max-width: 100px;
+}
+/* Common */
+.container, .container2{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 20px;
+}
+.button.black{
+    background-color: #23272A;
+    color: white;
+}
+/* Header */
+header{
+    color: white;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    padding-bottom: 1px;
+}
+nav{
+    padding: 17px;
+    background-color: #255EE9;
+}
+nav .container{
+    align-items: center;
+}
+nav .container div{
+    font-size: 15px;
+    /*line-height: 20px;*/
+    /*padding: 15px 10px;*/
+    /*padding: 15px 0px;*/
+}
+.logo img{
+    display: block;
+}
+.logo, .login{
+    flex-grow: 1;
+}
+.login{
+    text-align: right;
+}
+.link{
+    text-align: center;
+}
+.link ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+.box{
+    max-width: 950px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box .testo h1{
+    margin-bottom: 50px;
+}
+.box .testo p{
+    margin-bottom: 30px;
+    line-height: 35px;
+}
+.box .testo .button{
+    margin: 0 10px;
+    padding: 15px;
+    border-radius: 25px;
+}
+/* Main */
+section:nth-child(even){
+    background-color: #D3D3D3;
+}
+section{
+    padding: 52px 0;
+}
+.secondo{
+    width: 500px;
+}
+.primo{
+    flex-grow: 1;
+}
+/* Footer */
+footer{
+    padding-top: 10px;
+}
+footer .container{
+    margin-bottom: 45px;
+}
+.footerBottom{
+    border-top: 2px solid;
+    height: 115px;
+    padding-top: 28px;
+}
+.primaColonna{
+    flex-grow: 1;
+}
+.secondaColonna{
+    flex-grow: 2;
+    display: flex;
+    justify-content: space-around;
+}
+.footerBottom .container div{
+    padding: 10px;
+    align-self: center;
+}
